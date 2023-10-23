@@ -23,11 +23,16 @@
 ## How project is structured
 
 Structure look like
+![image](https://github.com/quanhnv/eLotus-challenges/assets/51664950/835b7eaf-0c41-4b78-b9e2-ad2be8f16f47)
+
 We have:
-- Auth folder: where contain file that process Authentication of the application. Currently, we only implement simple auth by jwt
+- Auth folder: where contain file that process Authentication of the application. Currently, we only implement simple auth by jwt.
 - Middlewares: where contain middlewares that between client and server. Currently, inside that folder, we defined Check-jwt to validate Request.
 - Database: where contain func as layer after daâtbase, to application work with database without caring about specific database type.
-- Routes: where contain api handler. 
+- Routes: where contain api handler.
+- Tmp: file storage.
+- .env: File contain app's configuration.
+- eLotus-hackathon-golang-upload-app.postman_collection.json: Postman sample request.
 
 ## Installation & Run
 
