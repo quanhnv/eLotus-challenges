@@ -20,7 +20,7 @@
 - Vanilla Golang
 - Postman
 
-## Installation
+## Installation & Run
 
 Requires [Go](https://go.dev/dl/) v1.21.3 to run.
 
