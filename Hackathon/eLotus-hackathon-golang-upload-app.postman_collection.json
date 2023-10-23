@@ -16,24 +16,23 @@
 					"formdata": [
 						{
 							"key": "username",
-							"value": "quahnv1",
+							"value": "quahnv",
 							"type": "text"
 						},
 						{
 							"key": "password",
-							"value": "1234567",
+							"value": "123456",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "localhost:8080/auth/register",
+					"raw": "localhost:8080/register",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"auth",
 						"register"
 					]
 				}
@@ -61,13 +60,12 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8080/auth/login",
+					"raw": "localhost:8080/login",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"auth",
 						"login"
 					]
 				}
@@ -81,7 +79,7 @@
 				"header": [
 					{
 						"key": "Cookie",
-						"value": "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjE2OTgwMDc3NzgsInVzZXJuYW1lIjoicXVhaG52In0.0ykjOu3ZQ-9JLzwmX4nYDjLMruFcuU1uZuBEemKnIJY",
+						"value": "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjE2OTgwMDc5NDYsInVzZXJuYW1lIjoicXVhaG52In0.91QcOQHSNYUbx0_OFkzoMaNNvM2n_coD34Z6YLhX1KM",
 						"type": "text"
 					}
 				],
@@ -96,13 +94,12 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:8080/image/upload",
+					"raw": "localhost:8080/upload",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"image",
 						"upload"
 					]
 				}

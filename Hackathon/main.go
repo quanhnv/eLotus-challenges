@@ -23,11 +23,11 @@ func main() {
 	})
 
 	//For auth
-	http.HandleFunc("/auth/register", routes.Register)
-	http.HandleFunc("/auth/login", routes.Login)
+	http.HandleFunc("/register", routes.Register)
+	http.HandleFunc("/login", routes.Login)
 
 	//For upload file
-	http.HandleFunc("/image/upload", middlewares.CheckJwt(routes.Upload))
+	http.HandleFunc("/upload", middlewares.CheckJwt(routes.Upload))
 
 	port := os.Getenv("APP_PORT")
 	//Server port

@@ -24,7 +24,7 @@ func CreateAndSetCookie(w http.ResponseWriter, userName string) (string, error) 
 
 	finalToken, err := token.SignedString([]byte(secretKey))
 
-	setCookie(w, userName)
+	setCookie(w, finalToken)
 
 	return finalToken, err
 }

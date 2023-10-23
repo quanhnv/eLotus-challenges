@@ -31,7 +31,7 @@ func Upload(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	//Get, read file info
+	//Get, read file info - Key = data
 	file, handler, err := r.FormFile("data")
 	if err != nil {
 		message := fmt.Sprintf("Error receiving file: %s", err.Error())
