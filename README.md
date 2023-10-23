@@ -23,6 +23,7 @@
 ## How project is structured
 
 Structure look like
+
 ![image](https://github.com/quanhnv/eLotus-challenges/assets/51664950/835b7eaf-0c41-4b78-b9e2-ad2be8f16f47)
 
 We have:
