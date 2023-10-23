@@ -1,4 +1,6 @@
 # eLotus-challenges
+Exam content: https://github.com/elotusteam/challenges/blob/main/backend.md
+includes:
 - DSA tasks
 - Hackathon - Simple upload file app
 
