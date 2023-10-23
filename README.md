@@ -20,6 +20,15 @@
 - Vanilla Golang
 - Postman
 
+## How project is structured
+
+Structure look like
+We have:
+- Auth folder: where contain file that process Authentication of the application. Currently, we only implement simple auth by jwt
+- Middlewares: where contain middlewares that between client and server. Currently, inside that folder, we defined Check-jwt to validate Request.
+- Database: where contain func as layer after daâtbase, to application work with database without caring about specific database type.
+- Routes: where contain api handler. 
+
 ## Installation & Run
 
 Requires [Go](https://go.dev/dl/) v1.21.3 to run.
